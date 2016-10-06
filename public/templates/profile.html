@@ -1,0 +1,39 @@
+<div class="container-fluid well span6">
+	<div class="row-fluid">
+        
+        <div class="span8">
+            <h3>User {{username}}</h3>
+            <h6>Id {{id}}</h6>
+            {{#if userMaterials}}
+            <!--<ul>
+                {{#userMaterials}}
+                    <li>
+                        title: <strong>{{title}} </strong>
+                        caregory: <strong>{{category}} </strong>
+                    </li>
+                {{/userMaterials}}
+            </ul>-->
+
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                <th class="resource-name">Title</th>
+                <th>Category</th>
+                <!--<th class="resource-link">Link</th>-->
+                </tr>
+                </thead>
+                <tbody>
+                {{#userMaterials}}
+                <tr>
+                <td>{{title}}</td>
+                <td>{{category}}</td>
+                </tr>
+                {{/userMaterials}}
+                </tbody>
+            </table>
+
+            {{else}}
+            <h5>No Materials</h5>
+            {{/if}}
+        </div>
+</div>

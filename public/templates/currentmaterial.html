@@ -1,0 +1,58 @@
+<div class="well">
+        <div class="media">
+            <a class="pull-left" href="{{img}}">
+                <img class="media-object" src="{{img}}">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading"><a id="vall" href="#/home/{{id}}" data-id="{{id}}">{{title}}</a></h4>
+            <p class="text-right">By <a href="#/profiles/{{user.username}}">{{user.username}}</a></p>
+            <p>{{description}}</p>
+            <ul class="list-inline list-unstyled">
+                <li><span><i class="glyphicon glyphicon-calendar"></i> {{createdOn}} </span></li>
+                <li>|</li>
+                <span><i class="glyphicon glyphicon-comment"></i> {{commentsCount}}</span>
+
+                <li>
+                <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                <span><i class="fa fa-facebook-square"></i></span>
+                <span><i class="fa fa-twitter-square"></i></span>
+                <span><i class="fa fa-google-plus-square"></i></span>
+                </li>
+                </ul>
+        </div>
+        </div>
+        {{#if comments}}
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                <th class="resource-name">Author</th>
+                <th>Text</th>
+                <!--<th class="resource-link">Link</th>-->
+                </tr>
+                </thead>
+                <tbody>
+                {{#comments}}
+                <tr>
+                <td>{{user.username}}</td>
+                <td>{{text}}</td>
+                </tr>
+                {{/comments}}
+                </tbody>
+            </table>
+
+            {{else}}
+            <h5>No Commands</h5>
+            {{/if}}
+
+        <div class="hidden-when-not-logged-in">
+            <div class="well">
+            <div class="media">
+                <label for="text">Text</label> 
+                    <input id="comand-text" name="text" class="form-control" 
+                        value="testtesttesttesttesttest">
+                </br>
+                <button id="btn-post-command" class="btn btn-success">Command</button>
+            </div>
+            </div>
+        </div>
+</div>

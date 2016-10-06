@@ -1,0 +1,29 @@
+#page {
+    text-align: center
+}
+
+#main-nav {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#page .hidden-when-not-logged-in {
+    display: none;
+}
+
+#page.logged-in .hidden-when-not-logged-in {
+    display: initial;
+}
+
+#page.logged-in .visible-when-not-logged-in {
+    display: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img.media-object {
+    height:120px;
+}

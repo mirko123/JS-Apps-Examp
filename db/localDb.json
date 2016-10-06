@@ -1,0 +1,590 @@
+{
+  "users": [
+    {
+      "username": "Doncho",
+      "password": "1234",
+      "usernameToLower": "doncho",
+      "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+      "authKey": "1miUIcFiq4_gueIE6QT5kHYK0woshtAKMGpqAi1H",
+      "userMaterials": [
+        {
+          "id": "dd707118-fbb0-45e7-b95f-c4ee9c90a6c9",
+          "title": "book #1",
+          "category": "want-to-watch"
+        },
+        {
+          "id": "bde2acbc-0bc2-43d2-a46a-4d3deb0eb7b3",
+          "title": "book #2",
+          "category": "want-to-watch"
+        }
+      ]
+    },
+    {
+      "username": "Doncho3",
+      "password": "1123123234",
+      "usernameToLower": "doncho3",
+      "id": "9b7cce23-db27-43ed-9711-02af4d5c69da"
+    },
+    {
+      "username": "johnnybravo",
+      "password": "mypass123",
+      "usernameToLower": "johnnybravo",
+      "id": "eb02cdd1-8df6-4288-9ea6-4de841cc7057"
+    },
+    {
+      "username": "konnyk",
+      "password": "1234567",
+      "usernameToLower": "konnyk",
+      "id": "2caa8881-302c-45e0-a68e-f3f20414b4cc"
+    },
+    {
+      "username": "testtesttest",
+      "password": "testtesttest1",
+      "usernameToLower": "testtesttest",
+      "id": "d0c69733-6572-4f43-b7e5-09fd541e733b",
+      "authKey": "v97SSY9cKb5EkcWtf34A8PcdTNRTyMBK48a6NtMG"
+    },
+    {
+      "username": "peshopetkov",
+      "password": "peshopetkov1",
+      "usernameToLower": "peshopetkov",
+      "id": "7f74a886-7e23-4ca1-acc4-2d38c4e452a8",
+      "authKey": "XXOfjK9-2XquZ197-L_fqbBAXXaDU5IBk8eyqTqZ"
+    },
+    {
+      "username": "penkapesho",
+      "password": "penkapesho1",
+      "usernameToLower": "penkapesho",
+      "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+      "authKey": "fVPLDjIkTEADT4(6Xdk3bXpSe)wuy1x0Sh3gWpth"
+    },
+    {
+      "username": "dedaznam",
+      "password": "dedaznam1",
+      "usernameToLower": "dedaznam",
+      "id": "7aeca6e1-ec1d-4b91-b88e-3f547c8c1b35",
+      "authKey": "7NMmZBKss4EHc53aq0ZWikJWERi4Em5Yn3C7O_gP"
+    },
+    {
+      "username": "detetodz",
+      "password": "detetodz1",
+      "usernameToLower": "detetodz",
+      "id": "13b73ff0-2f03-4de9-bd1e-bafc2a977aee",
+      "authKey": "j6NrYViWCwsU831tDA4NLFtXfmxHrFqShyVMb)Dh"
+    },
+    {
+      "username": "tatkovina",
+      "password": "tatkovina1",
+      "usernameToLower": "tatkovina",
+      "id": "7fbdf86b-ae28-44ab-b178-ea91fb080889",
+      "authKey": ")s-(9Ju2D4t)(n4ExUi2mVP!t7wQP9nF7dKjdt@m"
+    },
+    {
+      "username": "peshata",
+      "password": "peshata1",
+      "usernameToLower": "peshata",
+      "id": "45850e0d-208a-4c49-99c9-8ab458bbb213",
+      "authKey": "Y9MuxKeBaFyuu8cNMnsIffxsKlSI4PPX3236aF2G"
+    },
+    {
+      "username": "atanascho",
+      "password": "atanascho1",
+      "usernameToLower": "atanascho",
+      "id": "bf702aa9-bbfd-48cd-a3c7-13c41f6f40c0",
+      "authKey": "pnk8GdfQ8Q9s1K-urShc3f0rKrt_DpXZ3Pm@E-ES"
+    },
+    {
+      "username": "yooooloo",
+      "password": "yooooloo1",
+      "usernameToLower": "yooooloo",
+      "id": "18e6f977-22fb-48f8-bf4c-aa2e1a44dbea",
+      "authKey": "Ga(0p8!F7J_tW4o3WrSMmrV)HqoaJQ@EXF@i8!fD"
+    },
+    {
+      "username": "goshogosho",
+      "password": "gosho1",
+      "usernameToLower": "goshogosho",
+      "id": "1e955f06-0ef5-4430-a93d-cff771d8bc67",
+      "authKey": "G@YdaBk1wYAC1HY86Q-qT8o!Rk5Rck48jXOe0TT0"
+    }
+  ],
+  "materials": [
+    {
+      "title": "book #1",
+      "description": "The name of the wind",
+      "createdOn": "2016-09-28T12:50:13.612Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "dd707118-fbb0-45e7-b95f-c4ee9c90a6c9"
+    },
+    {
+      "title": "book #2",
+      "description": "JavaScript: The good parts",
+      "createdOn": "2016-09-28T12:50:13.679Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "bde2acbc-0bc2-43d2-a46a-4d3deb0eb7b3"
+    },
+    {
+      "title": "The The tHE...",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:14.271Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "669158cb-63d3-4237-b29f-e7448f65c87f"
+    },
+    {
+      "title": "book #4",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:14.365Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "The poet"
+      },
+      "id": "c042961f-0661-4381-9be9-5de824af2766"
+    },
+    {
+      "title": "book #5",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:14.406Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "cec2f5a5-d79e-41f7-9b5b-fcc364f776f7"
+    },
+    {
+      "title": "book #6",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:14.992Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "cb87a57d-8a7e-4ad6-8594-2b1c9a87cb84"
+    },
+    {
+      "title": "book #7",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:15.055Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "55105362-00ab-4f8c-9d72-eea1d3a28fd3"
+    },
+    {
+      "title": "book #8",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:15.683Z",
+      "rating": 0,
+      "comments": [
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        }
+      ],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "15925669-ac41-4183-a84b-1bead97d7f49"
+    },
+    {
+      "title": "book #9",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:15.763Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "4d7cc2dd-ef6c-4d26-939b-345ea9874a7f"
+    },
+    {
+      "title": "book #10",
+      "description": "description of book #$i",
+      "createdOn": "2016-09-28T12:50:15.808Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "ffafd855-f6e8-480f-87f8-1ed61fb202fa"
+    },
+    {
+      "title": "It works!",
+      "description": "Should be ok",
+      "createdOn": "2016-10-04T07:43:03.286Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "47f3ae36-6dac-44ce-8684-5a73c9eb1611"
+    },
+    {
+      "title": "It works!",
+      "description": "",
+      "createdOn": "2016-10-04T07:43:20.148Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "17890fff-e311-4196-8346-0d8a57d81e02"
+    },
+    {
+      "title": "It works",
+      "description": "",
+      "createdOn": "2016-10-04T07:43:29.803Z",
+      "rating": 0,
+      "comments": [
+        {
+          "text": "1234",
+          "user": {
+            "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+            "username": "Doncho"
+          }
+        },
+        {
+          "text": "123",
+          "user": {
+            "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+            "username": "Doncho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttestdassadasd",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        }
+      ],
+      "user": {
+        "id": "73a58989-5107-46e8-b781-4380f6c1c0b1",
+        "username": "Doncho"
+      },
+      "id": "c4333e8b-cf11-44cb-bc44-bd9e7a5bf1dd"
+    },
+    {
+      "title": "testtesttesttesttesttest",
+      "description": "testtesttesttest",
+      "img": "http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg",
+      "createdOn": "2016-10-04T15:56:49.067Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "18e6f977-22fb-48f8-bf4c-aa2e1a44dbea",
+        "username": "yooooloo"
+      },
+      "id": "5b492733-ce90-499c-a136-16152017f677"
+    },
+    {
+      "title": "testtesttesttesttesttest",
+      "description": "testtesttesttest",
+      "img": "http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg",
+      "createdOn": "2016-10-04T15:57:55.206Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "18e6f977-22fb-48f8-bf4c-aa2e1a44dbea",
+        "username": "yooooloo"
+      },
+      "id": "845488cf-4200-4cca-bfbd-2fc065786779"
+    },
+    {
+      "title": "testtesttesttesttesttest",
+      "description": "testtesttesttest",
+      "img": "http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg",
+      "createdOn": "2016-10-04T15:58:21.875Z",
+      "rating": 0,
+      "comments": [
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        }
+      ],
+      "user": {
+        "id": "18e6f977-22fb-48f8-bf4c-aa2e1a44dbea",
+        "username": "yooooloo"
+      },
+      "id": "0515c9de-ff65-4ee0-ad9f-0ceea9ce6089"
+    },
+    {
+      "title": "testtesttesttesttesttest",
+      "description": "testtesttesttest",
+      "img": "http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg",
+      "createdOn": "2016-10-04T15:58:40.596Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "18e6f977-22fb-48f8-bf4c-aa2e1a44dbea",
+        "username": "yooooloo"
+      },
+      "id": "13997121-f1b8-476d-a6f4-2fdeee12ff44"
+    },
+    {
+      "title": "testtesttesttesttesttest",
+      "description": "testtesttesttest",
+      "img": "http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg",
+      "createdOn": "2016-10-04T15:58:58.658Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "18e6f977-22fb-48f8-bf4c-aa2e1a44dbea",
+        "username": "yooooloo"
+      },
+      "id": "e00659df-bc89-49f4-80e6-241f948f55c9"
+    },
+    {
+      "title": "mirooroooooomirooooo",
+      "description": "testtesttesttest",
+      "img": "http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg",
+      "createdOn": "2016-10-04T16:00:10.158Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "18e6f977-22fb-48f8-bf4c-aa2e1a44dbea",
+        "username": "yooooloo"
+      },
+      "id": "720e5779-798b-438e-ae31-4d524bf7999c"
+    },
+    {
+      "title": "testtesttesttesttesttest",
+      "description": "testtesttesttest",
+      "img": "http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg",
+      "createdOn": "2016-10-04T16:01:20.995Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "18e6f977-22fb-48f8-bf4c-aa2e1a44dbea",
+        "username": "yooooloo"
+      },
+      "id": "916201bb-db9c-44d0-a2b5-3b4469fd5cdf"
+    },
+    {
+      "title": "testtesttesttesttesttest",
+      "description": "testtesttesttest",
+      "img": "http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg",
+      "createdOn": "2016-10-04T16:07:19.276Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "18e6f977-22fb-48f8-bf4c-aa2e1a44dbea",
+        "username": "yooooloo"
+      },
+      "id": "3ff1d9e9-bd37-4654-9223-90d6c5e9989b"
+    },
+    {
+      "title": "dsadsasdassadasdas",
+      "description": "testtesttesttest",
+      "img": "http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg",
+      "createdOn": "2016-10-04T16:14:56.748Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "18e6f977-22fb-48f8-bf4c-aa2e1a44dbea",
+        "username": "yooooloo"
+      },
+      "id": "9e47c6c5-9ea8-4fce-a60f-236825a46bd5"
+    },
+    {
+      "title": "oooooooooooooooooooooooo",
+      "description": "testtesttesttest",
+      "img": "http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg",
+      "createdOn": "2016-10-04T16:18:44.666Z",
+      "rating": 0,
+      "comments": [
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+            "username": "penkapesho"
+          }
+        }
+      ],
+      "user": {
+        "id": "18e6f977-22fb-48f8-bf4c-aa2e1a44dbea",
+        "username": "yooooloo"
+      },
+      "id": "89e5401d-361c-4ec3-9b6c-ceabe2777d35"
+    },
+    {
+      "title": "goshogoshogoshogoshogosho",
+      "description": "testtesttesttest",
+      "img": "http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg",
+      "createdOn": "2016-10-04T19:00:27.060Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+        "username": "penkapesho"
+      },
+      "id": "2983778f-f886-4ad2-bfaf-1c4bfd0cab42"
+    },
+    {
+      "title": "testtesttesttesttesttest",
+      "description": "testtesttesttest",
+      "img": "http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg",
+      "createdOn": "2016-10-04T19:01:43.602Z",
+      "rating": 0,
+      "comments": [
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "1e955f06-0ef5-4430-a93d-cff771d8bc67",
+            "username": "goshogosho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "1e955f06-0ef5-4430-a93d-cff771d8bc67",
+            "username": "goshogosho"
+          }
+        },
+        {
+          "text": "testtesttesttesttesttest",
+          "user": {
+            "id": "1e955f06-0ef5-4430-a93d-cff771d8bc67",
+            "username": "goshogosho"
+          }
+        },
+        {
+          "text": "dsasdasdas",
+          "user": {
+            "id": "1e955f06-0ef5-4430-a93d-cff771d8bc67",
+            "username": "goshogosho"
+          }
+        }
+      ],
+      "user": {
+        "id": "1e955f06-0ef5-4430-a93d-cff771d8bc67",
+        "username": "goshogosho"
+      },
+      "id": "048837b1-e6d8-4d6b-b3e4-116736a0ff21"
+    },
+    {
+      "title": "testtesttesttesttesttest",
+      "description": "testtesttesttest",
+      "img": "http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg",
+      "createdOn": "2016-10-04T21:45:06.476Z",
+      "rating": 0,
+      "comments": [],
+      "user": {
+        "id": "0b042820-6845-439f-afc1-f9108f70ede1",
+        "username": "penkapesho"
+      },
+      "id": "3f5389c5-b029-4a00-9724-877762937fbc"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<div class="ui-widget">
+  <label for="tags">Search: </label>
+  <input id="substring">
+  <input id="searchBtn" type="submit" class="btn">
+</div>
+</br>
+<div id="posts">
+    {{#result}}
+       <!--<div class="well">
+           {{id}} - {{title}}: "{{body}}" by {{user.username}}
+       </div>-->
+       <div class="well">
+        <div class="media">
+            <a class="pull-left" href="{{img}}">
+                <img class="media-object" src="{{img}}">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="#/home/{{id}}">{{title}}</a></h4>
+            <p class="text-right">By <a href="#/profiles/{{user.username}}">{{user.username}}</a></p>
+            <p>{{description}}</p>
+            <ul class="list-inline list-unstyled">
+                <li><span><i class="glyphicon glyphicon-calendar"></i> {{createdOn}} </span></li>
+                <li>|</li>
+                <span><i class="glyphicon glyphicon-comment"></i> {{commentsCount}}</span>
+
+                <li>
+                <!-- Use Font Awesome http://fortawesome.github.io/Font-Awesome/ -->
+                <span><i class="fa fa-facebook-square"></i></span>
+                <span><i class="fa fa-twitter-square"></i></span>
+                <span><i class="fa fa-google-plus-square"></i></span>
+                </li>
+                </ul>
+        </div>
+        </div>
+    </div>
+    {{/result}}
+</div>
+
+<div class="hidden-when-not-logged-in">
+    <div class="well">
+    <div class="media">
+        <label for="male">Title</label> 
+            <input id="post-title" name="title" class="form-control" 
+                value="testtesttesttesttesttest">
+        <label for="description">Description</label> 
+            <input id="post-body" name="description" class="form-control" 
+                value="testtesttesttest">
+        <label for="image">Img link</label> 
+            <input id="post-img" name="image" class="form-control" 
+                value="http://www.wvusports.com/content/images/Graphics/IMG-Logo(1).jpg">
+        </br>
+        <button id="btn-post" class="btn btn-success">Post</button>
+    </div>
+    </div>
+</div>
